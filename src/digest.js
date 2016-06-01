@@ -36,7 +36,6 @@ export function digest (a, { algorithm = 'sha1', inputEncoding = 'utf8', outputE
 
     // symbol
     case typeof a === 'symbol':
-    case a instanceof Symbol:
       u('S', `${a}`)
       break
 
