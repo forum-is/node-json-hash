@@ -2,6 +2,8 @@
 
 Generates hash for JSON objects.
 
+This forks omits cloning of `Symbol` properties to remain compatible with IE10.
+
 ## Usage
 
     // If you're not on babel use:
